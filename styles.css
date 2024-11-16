@@ -1,0 +1,96 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a1a1a; /* Dark Gray for professional feel */
+    color: #00bcd4; /* Cyan for a tech-inspired color */
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Content Section */
+.content-section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #00bcd4; /* Cyan for section headings */
+    font-weight: 500;
+}
+
+.content-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+.content-section ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.content-section li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark Gray for consistency */
+    color: white;
+    font-size: 1em;
+}
+
+/* Link Styling (if you decide to add links in the future) */
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
